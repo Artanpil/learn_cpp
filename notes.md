@@ -2,4 +2,4 @@
 - **Задача:** Хочу, чтобы кусок кода скомпилировался только если я это разрешу.
 - **Решение:** Использую `#define MY_FLAG` и потом `#ifdef MY_FLAG`.
 - **Аналогия:** Как дать команду начальнику-препроцессору: "Если видел флажок MY_FLAG, то вставь следующий код".
-- **Пример:** [https://github.com/Artanpil/learn_cpp/tree/e74f17b74eed47e29fe6cca175794aa969a51a11/Macros]
+- **Пример:** [https://github.com/Artanpil/learn_cpp/tree/859d1fbaec0d59a2c383e4605f1822efe31a4d84/chapter_2/Macrosssssss]
