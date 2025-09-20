@@ -1,0 +1,24 @@
+# Файлы сборки и компиляции Visual Studio
+/[Dd]ebug/
+/[Rr]elease/
+/[Xx]64/
+/[Ii]ntermediate/
+/[Bb]uild/
+/[Oo]bj/
+*.obj
+*.pdb
+*.ilk
+*.meta
+
+# Файлы решения и проекта Visual Studio (НЕ игнорируем сами .sln и .vcxproj!)
+# Но игнорируем пользовательские настройки
+*.user
+*.userosscache
+*.sln.docstates
+
+# Файлы кэша и служебные файлы
+.vs/
+.idea/
+*.suo
+*.opensdf
+*.sdf
