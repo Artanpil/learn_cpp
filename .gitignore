@@ -1,24 +1,28 @@
-# Файлы сборки и компиляции Visual Studio
-/[Dd]ebug/
-/[Rr]elease/
-/[Xx]64/
-/[Ii]ntermediate/
-/[Bb]uild/
-/[Oo]bj/
-*.obj
+# Игнорировать всё в папках сборки Visual Studio
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+[Xx]64/
+[Xx]86/
+[Bb]uild/
+[b]in/
+[Oo]bj/
+[Oo]bj[Ll]ib/
+
+# Файлы отладчика
 *.pdb
 *.ilk
-*.meta
+*.log
 
-# Файлы решения и проекта Visual Studio (НЕ игнорируем сами .sln и .vcxproj!)
-# Но игнорируем пользовательские настройки
+# Файлы автосохранения и пользовательские настройки
 *.user
 *.userosscache
 *.sln.docstates
 
-# Файлы кэша и служебные файлы
+# Временные файлы
+[Tt]humbs.db
+[Tt]mp/
+
+# Вся служебная папка Visual Studio
 .vs/
-.idea/
-*.suo
-*.opensdf
-*.sdf
